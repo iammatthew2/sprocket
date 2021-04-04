@@ -5,11 +5,6 @@ export default class ItemRoute extends Route {
   @service store;
 
   model() {
-    // console.log(this.store.findAll('pancakes'));
-    return [
-      { title: 'Ember Roadmap' },
-      { title: 'Accessibility in Ember' },
-      { title: 'EmberConf Recap' },
-    ];
+    return this.store.query('item', { include: 'all' });
   }
 }

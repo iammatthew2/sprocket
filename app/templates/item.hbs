@@ -14,6 +14,7 @@
             <article class="tile is-child notification is-warning">
               {{#each @model as |item|}}
                 <p class="title">{{item.title}}</p>
+                {{this.fullName}}
                 <p class="subtitle">this is that</p>
               {{/each}}
             </article>
