@@ -69,6 +69,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "bulma": "^0.9.2"
+    "bulma": "^0.9.2",
+    "vercel": "^21.3.3"
   }
 }

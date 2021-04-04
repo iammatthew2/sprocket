@@ -12,8 +12,10 @@
               <p class="subtitle">abcd</p>
             </article>
             <article class="tile is-child notification is-warning">
-              <p class="title">And</p>
-              <p class="subtitle">this is that</p>
+              {{#each @model as |post|}}
+                <p class="title">{{post.title}}</p>
+                <p class="subtitle">this is that</p>
+              {{/each}}
             </article>
           </div>
           <div class="tile is-parent">
