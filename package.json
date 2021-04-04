@@ -70,6 +70,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.2",
+    "chrome-launcher": "^0.13.4",
     "vercel": "^21.3.3"
   }
 }
