@@ -3,6 +3,8 @@
 
 **a work in progress**
 
+and it might always be
+
 a platform for building composable, api driven websites.
 
 aiming to use out-of-the-box ember js as much as possible
